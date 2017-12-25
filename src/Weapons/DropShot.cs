@@ -5,11 +5,9 @@ using System.Text;
 
 namespace DuckGame.MyMod
 {
-    [BaggedProperty("isInDemo", true), BaggedProperty("canSpawn", true), BaggedProperty("isOnlineCapable", true), EditorGroup("ShewiMod|guns")]
+    [BaggedProperty("isInDemo", true), BaggedProperty("canSpawn", false), BaggedProperty("isOnlineCapable", true), EditorGroup("Shewi|guns")]
     class DropShot : Gun
     {
-        private SpriteMap _sprite;
-
         public StateBinding _fireAngleState = new StateBinding("_fireAngle", -1, false, false);
 
         public StateBinding _aimAngleState = new StateBinding("_aimAngle", -1, false, false);
@@ -30,8 +28,20 @@ namespace DuckGame.MyMod
 
         public float _cooldown;
 
-        public DropShot(float xval, float yval) : base(xval, yval)
+        public override float angle
         {
+            get
+            {
+                return base.angle + this._aimAngle;
+            }
+            set
+            {
+                this._angle = value;
+            }
+        }
+
+        public DropShot(float xval, float yval) : base(xval, yval)
+		{
             this.ammo = 6;
             this._type = "gun";
             this.graphic = new Sprite("grenadeLauncher", 0f, 0f);
@@ -46,8 +56,10 @@ namespace DuckGame.MyMod
             this._fireSound = "deepMachineGun";
             this._bulletColor = Color.White;
         }
+
         public override void Update()
         {
+            Level.Nearest<ATGrenade>()
             base.Update();
             if (this._aiming && this._aimWait <= 0f && this._fireAngle < 90f)
             {

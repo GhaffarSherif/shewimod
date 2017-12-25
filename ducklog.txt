@@ -358,3 +358,445 @@ Mods: 6
 
 Failed to write exception to log.
 
+Steam INIT Failed!
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 12/25/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:04
+Special Code:  
+Code: 0
+Adapter Resolution: 1920x1080
+Game Resolution: 1920x1080
+Fullscreen: False
+Device: False
+Level: null
+Mods: 1
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+-- MserDuck initialized on 12/25/2017 at 15:48:14 --
+
+Failed to load mods: System.InvalidOperationException: Cross-thread operation not valid: Control 'GameForm' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.Form.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.Form.set_Text(String value)
+   at Microsoft.Xna.Framework.WindowsGameWindow.SetTitle(String title)
+   at Microsoft.Xna.Framework.GameWindow.set_Title(String value)
+   at DuckGame.MserDuck.MserEvents.OnPreInitialize()
+   at DuckGame.MserDuck.MserDuck.OnPreInitialize()
+   at DuckGame.ModLoader.LoadMods(String dir) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Modding\ModLoader\ModLoader.cs:line 539
+
+Fatal error: method injection failed! Check the following info for more details: Exception has been thrown by the target of an invocation.   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at DuckGame.MserDuck.MserDuck.Injector.Inject(MethodInfo original, MethodInfo replacement)
+   at DuckGame.MserDuck.MserDuck.PerformMethodInjection()
+   at DuckGame.MserDuck.MserEvents.OnInitialize()
+
+Error while loading config file!
+
+... error in ArgumentErrorsConnectionEntry (ShowArgumentErrorsConnection) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ArgumentErrorsPopupEntry (ShowArgumentErrorsPopup) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ArgumentErrorsUnderlineEntry (ShowArgumentErrorsUnderline) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ChatModeEntry (ChatMode) - last value "1": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ConnectionStatusEntry (ScoreboardKey) - last value "F1": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ListSizeEntry (ListSize) - last value "10": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in RolesEntry ({null}) - last value "{null}": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in SmartColorEntry (SmartColor) - last value "False": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (maxplayers) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (normalmaps) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (randommaps) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (requiredwins) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (restsevery) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (teams) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (type) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (wallmode) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in MatchSettingsEntry (workshopmaps) - last value "{null}": Object reference not set to an instance of an object.
+
+   at DuckGame.MserDuck.ConfigManager.ReadValue(ConfigEntry entry, Boolean generate)
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+Loading MserDuck has finished. Enjoy your stay! :)
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 12/25/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:03
+Special Code:  
+Code: 0
+Adapter Resolution: 1920x1080
+Game Resolution: 1920x1080
+Fullscreen: False
+Device: False
+Level: null
+Mods: 2
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+-- MserDuck initialized on 12/25/2017 at 15:48:33 --
+
+Failed to load mods: System.InvalidOperationException: Cross-thread operation not valid: Control 'GameForm' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.Form.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.Form.set_Text(String value)
+   at Microsoft.Xna.Framework.WindowsGameWindow.SetTitle(String title)
+   at Microsoft.Xna.Framework.GameWindow.set_Title(String value)
+   at DuckGame.MserDuck.MserEvents.OnPreInitialize()
+   at DuckGame.MserDuck.MserDuck.OnPreInitialize()
+   at DuckGame.ModLoader.LoadMods(String dir) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Modding\ModLoader\ModLoader.cs:line 539
+
+Fatal error: method injection failed! Check the following info for more details: Exception has been thrown by the target of an invocation.   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at DuckGame.MserDuck.MserDuck.Injector.Inject(MethodInfo original, MethodInfo replacement)
+   at DuckGame.MserDuck.MserDuck.PerformMethodInjection()
+   at DuckGame.MserDuck.MserEvents.OnInitialize()
+
+Error while loading config file!
+
+... error in ArgumentErrorsConnectionEntry (ShowArgumentErrorsConnection) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ArgumentErrorsPopupEntry (ShowArgumentErrorsPopup) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ArgumentErrorsUnderlineEntry (ShowArgumentErrorsUnderline) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ChatModeEntry (ChatMode) - last value "1": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ConnectionStatusEntry (ScoreboardKey) - last value "F1": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ListSizeEntry (ListSize) - last value "10": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in RolesEntry ({null}) - last value "{null}": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in SmartColorEntry (SmartColor) - last value "False": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+Loading MserDuck has finished. Enjoy your stay! :)
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 12/25/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:02
+Special Code:  
+Code: 0
+Adapter Resolution: 1920x1080
+Game Resolution: 1920x1080
+Fullscreen: False
+Device: False
+Level: null
+Mods: 2
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+-- MserDuck initialized on 12/25/2017 at 15:49:05 --
+
+Failed to load mods: System.InvalidOperationException: Cross-thread operation not valid: Control 'GameForm' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.Form.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.Form.set_Text(String value)
+   at Microsoft.Xna.Framework.WindowsGameWindow.SetTitle(String title)
+   at Microsoft.Xna.Framework.GameWindow.set_Title(String value)
+   at DuckGame.MserDuck.MserEvents.OnPreInitialize()
+   at DuckGame.MserDuck.MserDuck.OnPreInitialize()
+   at DuckGame.ModLoader.LoadMods(String dir) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Modding\ModLoader\ModLoader.cs:line 539
+
+Fatal error: method injection failed! Check the following info for more details: Exception has been thrown by the target of an invocation.   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at DuckGame.MserDuck.MserDuck.Injector.Inject(MethodInfo original, MethodInfo replacement)
+   at DuckGame.MserDuck.MserDuck.PerformMethodInjection()
+   at DuckGame.MserDuck.MserEvents.OnInitialize()
+
+Error while loading config file!
+
+... error in ArgumentErrorsConnectionEntry (ShowArgumentErrorsConnection) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ArgumentErrorsPopupEntry (ShowArgumentErrorsPopup) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ArgumentErrorsUnderlineEntry (ShowArgumentErrorsUnderline) - last value "True": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ChatModeEntry (ChatMode) - last value "1": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ConnectionStatusEntry (ScoreboardKey) - last value "F1": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in ListSizeEntry (ListSize) - last value "10": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in RolesEntry ({null}) - last value "{null}": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+... error in SmartColorEntry (SmartColor) - last value "False": The type initializer for 'DuckGame.MserDuck.ChatManager' threw an exception.
+
+   at DuckGame.MserDuck.ConfigEntries.SmartColorEntry.AfterRead()
+   at DuckGame.MserDuck.ConfigManager.ReadList(IEnumerable`1 list, Boolean generate)
+
+Loading MserDuck has finished. Enjoy your stay! :)
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 12/25/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:03
+Special Code:  
+Code: 0
+Adapter Resolution: 1920x1080
+Game Resolution: 1920x1080
+Fullscreen: False
+Device: False
+Level: null
+Mods: 2
+
+Failed to write exception to log.
+
+System.TypeLoadException: Could not load type 'DuckGame.LittleHeart' from assembly 'DuckGame, Version=1.0.6144.29945, Culture=neutral, PublicKeyToken=null'.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Signature..ctor(IRuntimeFieldInfo fieldHandle, RuntimeType declaringType)
+   at System.Reflection.RtFieldInfo.get_FieldType()
+   at DuckGame.Editor.<>c__DisplayClass19.<InitializeConstructorLists>b__13(FieldInfo val) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\LevelEditor\Editor.cs:line 1093
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DuckGame.Editor.InitializeConstructorLists() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\LevelEditor\Editor.cs:line 1093
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 12/25/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:02
+Special Code:  
+Code: 0
+Adapter Resolution: 1920x1080
+Game Resolution: 1920x1080
+Fullscreen: False
+Device: False
+Level: null
+Mods: 2
+
+Failed to write exception to log.
+
+System.TypeLoadException: Could not load type 'DuckGame.LittleHeart' from assembly 'DuckGame, Version=1.0.6144.29945, Culture=neutral, PublicKeyToken=null'.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Signature..ctor(IRuntimeFieldInfo fieldHandle, RuntimeType declaringType)
+   at System.Reflection.RtFieldInfo.get_FieldType()
+   at DuckGame.Editor.<>c__DisplayClass19.<InitializeConstructorLists>b__13(FieldInfo val) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\LevelEditor\Editor.cs:line 1093
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at DuckGame.Editor.InitializeConstructorLists() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\LevelEditor\Editor.cs:line 1093
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 12/25/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:01
+Special Code:  
+Code: 0
+Adapter Resolution: 1920x1080
+Game Resolution: 1920x1080
+Fullscreen: False
+Device: False
+Level: null
+Mods: 2
+
+Failed to write exception to log.
+

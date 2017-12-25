@@ -1,9 +1,9 @@
+C:\Users\sheri\Documents\DuckGame\Mods\shewimod\build\obj\x86\Debug\shewimod.dll
+C:\Users\sheri\Documents\DuckGame\Mods\shewimod\build\obj\x86\Debug\shewimod.pdb
+C:\Users\sheri\Documents\DuckGame\Mods\shewimod\shewimod.dll
+C:\Users\sheri\Documents\DuckGame\Mods\shewimod\shewimod.pdb
 C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\build\obj\x86\Debug\shewimod.dll
 C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\build\obj\x86\Debug\shewimod.pdb
 C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\shewimod.dll
 C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\shewimod.pdb
 C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\build\obj\x86\Debug\mod.csprojResolveAssemblyReference.cache
-C:\Users\sheri\Documents\DuckGame\Mods\shewimod\build\obj\x86\Debug\shewimod.dll
-C:\Users\sheri\Documents\DuckGame\Mods\shewimod\build\obj\x86\Debug\shewimod.pdb
-C:\Users\sheri\Documents\DuckGame\Mods\shewimod\shewimod.dll
-C:\Users\sheri\Documents\DuckGame\Mods\shewimod\shewimod.pdb

@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DuckGame">
-      <HintPath>Z:\Steam Games\steamapps\common\Duck Game\DuckGame.exe</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Duck Game\DuckGame.exe</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="src\Effects\DuckPlaceHolder.cs" />
+    <Compile Include="src\Weapons\DropShot.cs" />
     <Compile Include="src\Weapons\PhoneyGernade.cs" />
     <Compile Include="src\Weapons\RainbowDuelingPistol.cs" />
     <Compile Include="src\Weapons\RedDuelingPistol.cs" />

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DuckGame.MyMod
 {
-    [BaggedProperty("isInDemo", true), EditorGroup("guns|explosives"), BaggedProperty("canSpawn", true), BaggedProperty("isOnlineCapable", true)]
+    [BaggedProperty("isInDemo", true), EditorGroup("Shewi|explosives"), BaggedProperty("canSpawn", true), BaggedProperty("isOnlineCapable", true)]
     public class Nuke : Gun
     {
         private bool finsihedExploding = false;
@@ -125,7 +125,7 @@ namespace DuckGame.MyMod
                     Vec2 barrel = this.Offset(base.barrelOffset);
                     this.ApplyForce(new Vec2(1f, -4f));
                     this.hSpeed = 0.005f;
-                    this.vSpeed += 0.003f;
+                    this.vSpeed += 0.0003f;
                     QuadLaserBullet b = new QuadLaserBullet(barrel.x, barrel.y, barrelVector);
                     b.killThingType = base.GetType();
                     Level.Add(b);
@@ -134,8 +134,8 @@ namespace DuckGame.MyMod
                 {
                     Vec2 barrel = this.Offset(base.barrelOffset);
                     //this.ApplyForce(new Vec2(1f, -4f));
-                    this.hSpeed = -0.0015f;
-                    this.vSpeed = -0.005f;
+                    this.hSpeed = -0.0025f;
+                    this.vSpeed = -0.02f;
                     QuadLaserBullet b = new QuadLaserBullet(barrel.x, barrel.y, barrelVector);
                     b.killThingType = base.GetType();
                     Level.Add(b);

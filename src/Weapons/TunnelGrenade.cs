@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DuckGame.MyMod
 {
-    [BaggedProperty("isInDemo", true), BaggedProperty("canSpawn", false), BaggedProperty("isOnlineCapable", true), EditorGroup("guns|explosives")]
+    [BaggedProperty("isInDemo", true), BaggedProperty("canSpawn", false), BaggedProperty("isOnlineCapable", true), EditorGroup("Shewi|explosives")]
     public class TunnelGrenade : Gun
     {
         public StateBinding _timerBinding = new StateBinding("_timer", -1, false);

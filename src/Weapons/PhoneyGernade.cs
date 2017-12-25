@@ -2,7 +2,7 @@
 
 namespace DuckGame.MyMod
 {
-	[BaggedProperty("isInDemo", true), BaggedProperty("canSpawn", true), BaggedProperty("isOnlineCapable", true), EditorGroup("guns|explosives")]
+	[BaggedProperty("isInDemo", true), BaggedProperty("canSpawn", true), BaggedProperty("isOnlineCapable", true), EditorGroup("Shewi|explosives")]
 	public class PhoneyGernade : Gun
 	{
 		public StateBinding _timerBinding = new StateBinding("_timer", -1, false);

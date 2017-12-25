@@ -2,7 +2,7 @@
 
 namespace DuckGame.MyMod
 {
-    [BaggedProperty("isInDemo", true), BaggedProperty("canSpawn", true), BaggedProperty("isOnlineCapable", true), EditorGroup("guns")]
+    [BaggedProperty("isInDemo", true), BaggedProperty("canSpawn", true), BaggedProperty("isOnlineCapable", true), EditorGroup("Shewi|guns")]
 
 
     public class RedDuelingPistol : Gun
