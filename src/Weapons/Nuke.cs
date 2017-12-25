@@ -134,8 +134,8 @@ namespace DuckGame.MyMod
                 {
                     Vec2 barrel = this.Offset(base.barrelOffset);
                     //this.ApplyForce(new Vec2(1f, -4f));
-                    this.hSpeed = -0.001f;
-                    this.vSpeed = -0.003f;
+                    this.hSpeed = -0.0015f;
+                    this.vSpeed = -0.005f;
                     QuadLaserBullet b = new QuadLaserBullet(barrel.x, barrel.y, barrelVector);
                     b.killThingType = base.GetType();
                     Level.Add(b);

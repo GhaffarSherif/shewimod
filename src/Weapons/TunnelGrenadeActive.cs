@@ -18,7 +18,6 @@ namespace DuckGame.MyMod
         public bool _pin = true;
 
         public float _timer = 2f;
-        public float teleTimer = 0.06f;
 
         private Duck _cookThrower;
 
@@ -56,6 +55,7 @@ namespace DuckGame.MyMod
 
         public TunnelGrenadeActive(float xval, float yval) : base(xval, yval)
         {
+            d = duck;
             this.ammo = 1;
             this._ammoType = new ATShrapnel();
             this._ammoType.penetration = 0.4f;
@@ -72,7 +72,9 @@ namespace DuckGame.MyMod
             this.collisionOffset = new Vec2(-4f, -5f);
             this.collisionSize = new Vec2(8f, 10f);
             base.bouncy = 0.7f;
-            this.friction = 0.05f;
+            this.friction = 0.025f;
+            this.weight = 0.1f;
+            this._weight = 0.1f;
             this._editorName = "(teleport) Tunnel Grenade";
             this._bio = "Like a Grenade, teleports the duck who threw it!";
         }
@@ -123,36 +125,6 @@ namespace DuckGame.MyMod
         public override void Update()
         {
             base.Update();
-            if (teleTimer <= 0.05f)
-            {
-                if (duck != null)
-                    d = duck;
-                else if (prevOwner != null)
-                    d = (Duck)prevOwner;
-
-                teleTimer = teleTimer - 0.01f;
-                if (teleTimer <= 0.03f)
-                {
-                    Level.Add(SmallSmoke.New(duck.position.x, duck.position.y));
-                    if (d.ragdoll != null)
-                    {
-                        d.ragdoll.position.x = this.position.x;
-                        d.ragdoll.position.y = this.position.y - 10f;
-                    }
-                    else
-                    {
-                        d.position.x = this.position.x;
-                        d.position.y = this.position.y - 10f;
-                    }
-
-                    Level.Add(SmallSmoke.New(duck.position.x, duck.position.y));
-                    duck.vSpeed = -0.5f;
-
-                    Level.Remove(this);
-                    base._destroyed = true;
-                    this._explodeFrames = -1;
-                }
-            }
             if (!this._pin)
             {
                 this._timer -= 0.01f;
@@ -186,14 +158,33 @@ namespace DuckGame.MyMod
 
                             for (int i = 0; i < 20; i++)
                             {
-                                float dir = (float)i * 18f - 5f + Rando.Float(10f);
-                                ATShrapnel shrap = new ATShrapnel();
-                                shrap.range = 60f + Rando.Float(18f);
-                                Bullet bullet = new Bullet(cx + (float)(System.Math.Cos((double)Maths.DegToRad(dir)) * 6.0), cy - (float)(System.Math.Sin((double)Maths.DegToRad(dir)) * 6.0), shrap, dir, null, false, -1f, false, true);
-                                bullet.firedFrom = this;
-                                this.firedBullets.Add(bullet);
-                                Level.Add(bullet);
-                                teleTimer = 0.05f;
+                                SFX.Play(GetPath("/sfx/teleport"), 1f, 0f, 0f, false);
+
+                                if (duck != null)
+                                    d = duck;
+                                else if (prevOwner != null)
+                                    d = (Duck) prevOwner;
+                                else if (_equippedDuck != null)
+                                    d = _equippedDuck;
+
+                                Level.Add(SmallSmoke.New(d.position.x, d.position.y));
+                                if (d.ragdoll != null)
+                                {
+                                    d.ragdoll.position.x = this.position.x;
+                                    d.ragdoll.position.y = this.position.y - 10f;
+                                }
+                                else
+                                {
+                                    d.position.x = this.position.x;
+                                    d.position.y = this.position.y - 10f;
+                                }
+
+                                Level.Add(SmallSmoke.New(d.position.x, d.position.y));
+                                d.vSpeed = -0.5f;
+
+                                Level.Remove(this);
+                                base._destroyed = true;
+                                this._explodeFrames = -1;
                             }
                             System.Collections.Generic.IEnumerable<Window> windows = Level.CheckCircleAll<Window>(this.position, 40f);
                             foreach (Window w in windows)
@@ -211,19 +202,20 @@ namespace DuckGame.MyMod
                                 this.firedBullets.Clear();
                             }
                         }
+
                     }
                 }
-            }
 
-            if (base.prevOwner != null && this._cookThrower == null)
-            {
-                this._cookThrower = (base.prevOwner as Duck);
-                this._cookTimeOnThrow = this._timer;
-            }
+                if (base.prevOwner != null && this._cookThrower == null)
+                {
+                    this._cookThrower = (base.prevOwner as Duck);
+                    this._cookTimeOnThrow = this._timer;
+                }
 
+            }
         }
 
-        public override void OnSolidImpact(MaterialThing with, ImpactedFrom from)
+        public override void OnImpact(MaterialThing with, ImpactedFrom from)
         {
             if (this.pullOnImpact)
             {

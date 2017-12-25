@@ -69,6 +69,32 @@ namespace DuckGame.MyMod
             sprite.AddAnimation("0", 0.4f, true, 12);
             
         }
+        public override void OnImpact(MaterialThing with, ImpactedFrom from)
+        {
+            if (with is Duck && Math.Abs(this.hSpeed) + Math.Abs(this.vSpeed) >= 2f)
+            {
+                if (isServerForObject)
+                {
+                    if (with.isServerForObject)
+                    {
+                        this.EquipGun(with as Duck);
+
+                    }
+                }
+                
+                this.y = 9999f;
+                
+            }
+        }
+        public void EquipGun(Duck d)
+        {
+            d.ThrowItem(false);
+            d.GiveHoldable(this);
+           
+           // d.Equip(this);
+        }
+
+
         public override void OnSoftImpact(MaterialThing with, ImpactedFrom from)
         {
             base.OnSoftImpact(with, from);
