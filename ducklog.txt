@@ -1,0 +1,360 @@
+Steam INIT Failed!
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 03/12/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:01
+Special Code:  
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 1
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 03/12/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:01
+Special Code:  
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 1
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\Shaders'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirEffects(String dir) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 559
+   at DuckGame.Content.InitializeEffects() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 763
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 03/12/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:01
+Special Code: C:/Users/Sherif/Documents/DuckGame/Levels/UFF/[UFF] Turbulence.lev 
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 1
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\Audio\Music'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Music.SearchDir(String dir) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Sound\Music.cs:line 334
+   at DuckGame.Music.Initialize() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Sound\Music.cs:line 76
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 03/12/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:01
+Special Code: C:/Users/Sherif/Documents/DuckGame/Levels/UFF/[UFF] Turbulence.lev 
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 1
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+System.IO.FileNotFoundException: Error loading "Content\levels\asd.lev". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at DuckGame.Content.ProcessLevel(String path, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 618
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 511
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 03/12/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:01
+Special Code: Content/levels/asd.lev 
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 1
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+System.IO.FileNotFoundException: Error loading "Content\levels\asd.lev". File not found.
+   at Microsoft.Xna.Framework.TitleContainer.OpenStream(String name)
+   at DuckGame.Content.ProcessLevel(String path, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 618
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 511
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 03/12/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:01
+Special Code: Content/levels/asd.lev 
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 1
+
+Failed to write exception to log.
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 04/01/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:02
+Special Code:  
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 4
+
+Failed to write exception to log.
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 04/01/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:02
+Special Code:  
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 4
+
+Failed to write exception to log.
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 04/01/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:02
+Special Code:  
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 4
+
+Failed to write exception to log.
+
+Steam INIT Failed!
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Sherif\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in E:\gamedev\DuckGame_Steam\duckgame_halloween_new\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 830
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in E:\gamedev\DuckGame_Steam\duckgame_halloween_new\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in E:\gamedev\DuckGame_Steam\duckgame_halloween_new\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 715
+   at DuckGame.MonoMain.InitializeSystems() in E:\gamedev\DuckGame_Steam\duckgame_halloween_new\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 565
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 06/01/2017
+Version: 1.0.6360.32650
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:02
+Special Code:  
+Code: 0
+Adapter Resolution: 1920x1080
+Game Resolution: 1920x1080
+Fullscreen: False
+Device: False
+Level: null
+Mods: 0
+
+Failed to write exception to log.
+
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\sheri\Documents\DuckGame\Mods\shewimod\Content\levels'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at DuckGame.Content.GetFiles(String path, String filter) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 811
+   at DuckGame.Content.SearchDirLevels(String dir, LevelLocation location) in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 509
+   at DuckGame.Content.InitializeLevels() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\Content\Content.cs:line 693
+   at DuckGame.MonoMain.InitializeSystems() in C:\DuckGame\duckgame_halloween\duckgame\DuckGame\src\MonoTime\MonoMain.cs:line 564
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+
+Date: 07/16/2017
+Version: 1.0.6144.29945
+Platform: Windows 8
+Online: FALSE
+Editor: False
+Time Played: 00:00:02
+Special Code:  
+Code: 0
+Adapter Resolution: 1280x720
+Game Resolution: 1280x720
+Fullscreen: False
+Device: False
+Level: null
+Mods: 6
+
+Failed to write exception to log.
+
